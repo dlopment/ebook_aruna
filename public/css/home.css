@@ -1,0 +1,176 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    padding: 0 20px;
+}
+.footer-section img {
+    width: 150px;
+}
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    width: 50px;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+/* Footer Styling */
+.footer {
+    background-color: #004891; /* Warna biru seperti contoh */
+    font-size: 14px;
+    border-top: 5px solid #166da9; /* Warna biru sesuai contoh */
+    text-align: center; /* Pusatkan teks jika diperlukan */
+    padding-bottom: 10vh;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* Bagian Logo */
+.footer-logos img {
+    width: 15vh;
+    margin-right: 10px;
+}
+.footer-logos p {
+    padding-top: 5vh;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Informasi Perusahaan */
+.footer-about p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Navigasi Menu */
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav p {
+    padding-top: 3vh;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Media Sosial */
+.footer-social {
+    display: flex;
+    padding-left: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social a {
+    margin-bottom: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+}
+.foter {
+    margin-top: 5vh;
+}
+
+.bawah {
+    background-color: #004891;
+    padding: 0.9vh;
+    text-align: center;
+}
+.bawah p {
+    color: rgb(254, 254, 254);
+}
+.card-container {
+    display: flex; /* Mengatur card agar horizontal */
+    gap: 20px; /* Memberikan jarak antar card */
+    justify-content: space-between; /* Menyebar antar card */
+    padding: 20vh;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Agar gambar tidak keluar dari card */
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Menyesuaikan gambar dengan ukuran card */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25em;
+    margin: 0 0 10px;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.card-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}

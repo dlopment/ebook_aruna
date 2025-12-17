@@ -1,0 +1,215 @@
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+/* footer bawah slider */
+.footer {
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.footer-item i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #000;
+}
+
+.content-text {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to the next line */
+    gap: 20px; /* Space between cards */
+    padding: 10vh;
+}
+
+/* footer untuk informasi dibawah website */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    padding: 0 20px;
+}
+.footer-section img {
+    width: 150px;
+}
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    width: 50px;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+/* Footer Styling */
+.footer {
+    background-color: #004891; /* Warna biru seperti contoh */
+    font-size: 14px;
+    border-top: 5px solid #166da9; /* Warna biru sesuai contoh */
+    text-align: center; /* Pusatkan teks jika diperlukan */
+    padding-bottom: 10vh;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* Bagian Logo */
+.footer-logos img {
+    width: 15vh;
+    margin-right: 10px;
+}
+.footer-logos p {
+    padding-top: 5vh;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Informasi Perusahaan */
+.footer-about p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Navigasi Menu */
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav p {
+    padding-top: 3vh;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Media Sosial */
+.footer-social {
+    display: flex;
+    padding-left: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social a {
+    margin-bottom: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+}
+.foter {
+    margin-top: 5vh;
+}
+
+.bawah {
+    background-color: #004891; /* Warna background putih */
+    padding: 0.1vh;
+    text-align: center; /* Pusatkan teks jika diperlukan */
+}
+.bawah p {
+    color: rgb(254, 254, 254);
+}
+/* styles.css */
+
+.card {
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    width: calc(25% - 20px); /* Ensure 4 cards per row */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 20px); /* Ensure 4 cards per row */
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 3vh;
+}
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 1rem;
+    margin: 0 0 20px;
+    color: #666;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.card-button:hover {
+    background: #0056b3;
+}

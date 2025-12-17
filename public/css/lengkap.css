@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #515E78;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Comic Sans MS', sans-serif;
+}
+.atur_tempat{
+    padding: 30px;
+}
+
+.about-footer{
+    padding: 30px;
+}
+.footer-container {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-section {
+    padding: 20px;
+}
+.footer-section img{
+    width: 150px;
+}
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ 
+.footer-section ul {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    width: 50px;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.card-title{
+text-align: center
+}
+
+.tampil img{
+    width: 50%; 
+    height: 30%;
+    border-radius: 15px;
+    margin-left: 25%;
+}
+
+.tampil p{
+margin-left: 10%;
+margin-right: 10%;
+}
+.breadcrumb {
+    margin-left: 40px;
+    /* Mengatur margin kiri menjadi otomatis */
+    margin-right: 80px;
+    /* Mengatur margin kanan menjadi otomatis */
+}
